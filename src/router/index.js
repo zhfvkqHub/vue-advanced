@@ -5,6 +5,10 @@ import AskView from '../views/AskView.vue'
 
 const routes= [
     {
+        path : '/',
+        redirect : '/news'
+    },
+    {
         // path : url 주소
         path : '/news',
         // componetn : url 주소로 갔을 때 표시될 컴포넌트
